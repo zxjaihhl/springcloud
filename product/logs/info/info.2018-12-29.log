@@ -1,0 +1,265 @@
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$203f3fef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+No active profile set, falling back to default profiles: default
+BeanFactory id=bcd7bb06-235b-3dd7-a673-b569ba20cc20
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4253cf2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$203f3fef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9763 (http)
+Initializing ProtocolHandler ["http-nio-9763"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 875 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546045934812 with initial instances count: 0
+Registering application PRODUCT with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546045934815, current=UP, previous=STARTING]
+DiscoveryClient_PRODUCT/DESKTOP-306J2P2:product:9763: registering service...
+Starting ProtocolHandler ["http-nio-9763"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9763 (http) with context path ''
+Updating port to 9763
+Started ProductApplication in 3.993 seconds (JVM running for 4.694)
+DiscoveryClient_PRODUCT/DESKTOP-306J2P2:product:9763 - registration status: 204
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: false
+Getting all instance registry info from the eureka server
+The response status is 200
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 5 ms
+{dataSource-1} inited
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ac6ce252] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+No active profile set, falling back to default profiles: default
+BeanFactory id=bcd7bb06-235b-3dd7-a673-b569ba20cc20
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9052df55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ac6ce252] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9763 (http)
+Initializing ProtocolHandler ["http-nio-9763"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 716 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546050540581 with initial instances count: 2
+Registering application PRODUCT with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546050540583, current=UP, previous=STARTING]
+DiscoveryClient_PRODUCT/DESKTOP-306J2P2:product:9763: registering service...
+Starting ProtocolHandler ["http-nio-9763"]
+Using a shared selector for servlet write/read
+DiscoveryClient_PRODUCT/DESKTOP-306J2P2:product:9763 - registration status: 204
+Tomcat started on port(s): 9763 (http) with context path ''
+Updating port to 9763
+Started ProductApplication in 3.55 seconds (JVM running for 4.167)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 5 ms
+{dataSource-1} inited
+Resolving eureka endpoints via configuration
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$26f88fa9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+No active profile set, falling back to default profiles: default
+BeanFactory id=bcd7bb06-235b-3dd7-a673-b569ba20cc20
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ade8cac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$26f88fa9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9763 (http)
+Initializing ProtocolHandler ["http-nio-9763"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 737 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546050877973 with initial instances count: 2
+Registering application PRODUCT with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546050877975, current=UP, previous=STARTING]
+DiscoveryClient_PRODUCT/DESKTOP-306J2P2:product:9763: registering service...
+Starting ProtocolHandler ["http-nio-9763"]
+Using a shared selector for servlet write/read
+DiscoveryClient_PRODUCT/DESKTOP-306J2P2:product:9763 - registration status: 204
+Tomcat started on port(s): 9763 (http) with context path ''
+Updating port to 9763
+Started ProductApplication in 4.306 seconds (JVM running for 4.925)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+{dataSource-1} inited
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7c355e31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+No active profile set, falling back to default profiles: default
+BeanFactory id=bcd7bb06-235b-3dd7-a673-b569ba20cc20
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$601b5b34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7c355e31] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9763 (http)
+Initializing ProtocolHandler ["http-nio-9763"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1451 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546064943262 with initial instances count: 1
+Registering application PRODUCT with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546064943265, current=UP, previous=STARTING]
+DiscoveryClient_PRODUCT/DESKTOP-306J2P2:product:9763: registering service...
+Starting ProtocolHandler ["http-nio-9763"]
+Using a shared selector for servlet write/read
+DiscoveryClient_PRODUCT/DESKTOP-306J2P2:product:9763 - registration status: 204
+Tomcat started on port(s): 9763 (http) with context path ''
+Updating port to 9763
+Started ProductApplication in 8.187 seconds (JVM running for 9.323)
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 5 ms
+{dataSource-1} inited
+Resolving eureka endpoints via configuration

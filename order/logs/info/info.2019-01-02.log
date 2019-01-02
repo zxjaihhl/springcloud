@@ -1,0 +1,1289 @@
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e9f592c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546391689317 with initial instances count: 1
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=8d4665d444b0a14e16cd1de94999e17762ca6e54, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+BeanFactory id=63b17054-8541-32b2-955f-574d598058e1
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cddb8fc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e9f592c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2300 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546391697550 with initial instances count: 1
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546391697554, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 11.501 seconds (JVM running for 12.342)
+Resolving eureka endpoints via configuration
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b3a87f24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546392089968 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=8d4665d444b0a14e16cd1de94999e17762ca6e54, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+BeanFactory id=63b17054-8541-32b2-955f-574d598058e1
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$978e7c27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b3a87f24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2130 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546392096890 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546392096895, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 9.039 seconds (JVM running for 9.734)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 7 ms
+Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+Resolving eureka endpoints via configuration
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17b8f6bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546392543354 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=8d4665d444b0a14e16cd1de94999e17762ca6e54, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+BeanFactory id=63b17054-8541-32b2-955f-574d598058e1
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb9ef3c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17b8f6bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 772 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546392547387 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546392547388, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 5.85 seconds (JVM running for 6.467)
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 5 ms
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8dace345] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546393410385 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=8d4665d444b0a14e16cd1de94999e17762ca6e54, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+BeanFactory id=7663be83-6eb4-3812-b8bf-a5ff9c38ab08
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7192e048] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8dace345] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 740 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546393414289 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546393414291, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 5.935 seconds (JVM running for 6.55)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d1d49c52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546393673291 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=3a910960280d8f114a081754ca3a16af9ed3f518, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+BeanFactory id=7663be83-6eb4-3812-b8bf-a5ff9c38ab08
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b5ba9955] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d1d49c52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 748 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546393676892 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546393676894, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 5.491 seconds (JVM running for 6.233)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$45d76f91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546395005305 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=b197abe0ae6d1aa006e24fb531e54333dc144498, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+BeanFactory id=7663be83-6eb4-3812-b8bf-a5ff9c38ab08
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$29bd6c94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$45d76f91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 744 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546395009351 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546395009352, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 5.855 seconds (JVM running for 6.616)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 5 ms
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c24abced] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546398668886 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=541b0a494b4fd01899ce163b487122ba7c6c2472, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+BeanFactory id=df961d18-b96d-393c-bd48-2c7260a1716b
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a630b9f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c24abced] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1120 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@61394494
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Exposing 19 endpoint(s) beneath base path '/actuator'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546398673336 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546398673338, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 6.358 seconds (JVM running for 6.96)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+{dataSource-1} inited
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=541b0a494b4fd01899ce163b487122ba7c6c2472, state=null
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3e7c4430] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546398776260 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=b7181ccb6e77bd1faec27c4cd8c1b7559c7fa1e6, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+BeanFactory id=df961d18-b96d-393c-bd48-2c7260a1716b
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22624133] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3e7c4430] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 950 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@de77146
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Exposing 19 endpoint(s) beneath base path '/actuator'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546398780420 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546398780422, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 6.086 seconds (JVM running for 6.721)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 8 ms
+{dataSource-1} inited
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=b7181ccb6e77bd1faec27c4cd8c1b7559c7fa1e6, state=null
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5bbc9a39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546398837981 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=b7181ccb6e77bd1faec27c4cd8c1b7559c7fa1e6, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+BeanFactory id=df961d18-b96d-393c-bd48-2c7260a1716b
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fa2973c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5bbc9a39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 957 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@20349058
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Exposing 0 endpoint(s) beneath base path '/actuator'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546398842174 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546398842176, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 6.188 seconds (JVM running for 6.873)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 8 ms
+{dataSource-1} inited
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=b7181ccb6e77bd1faec27c4cd8c1b7559c7fa1e6, state=null
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$66517674] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546399754942 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=b7181ccb6e77bd1faec27c4cd8c1b7559c7fa1e6, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+BeanFactory id=df961d18-b96d-393c-bd48-2c7260a1716b
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4a377377] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$66517674] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 994 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7558633
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Exposing 2 endpoint(s) beneath base path '/actuator'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546399758979 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546399758980, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 5.894 seconds (JVM running for 6.508)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 10 ms
+{dataSource-1} inited
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=b7181ccb6e77bd1faec27c4cd8c1b7559c7fa1e6, state=null
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$971e30a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546399776977 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=b7181ccb6e77bd1faec27c4cd8c1b7559c7fa1e6, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+BeanFactory id=7663be83-6eb4-3812-b8bf-a5ff9c38ab08
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b042daa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$971e30a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 750 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546399781479 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546399781480, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 6.38 seconds (JVM running for 7.085)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 5 ms
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf19c8d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546413546834 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=b7181ccb6e77bd1faec27c4cd8c1b7559c7fa1e6, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+BeanFactory id=aa88dc0a-3b86-32f5-b35a-d18366e42aa6
+No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$796b8407] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2ffc5d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$1df18108] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$f9838c28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$326b34f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf19c8d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 955 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Initializing ExecutorService 'taskScheduler'
+Registering MessageChannel nullChannel
+Registering MessageChannel springCloudBusOutput
+Registering MessageChannel errorChannel
+Registering MessageChannel springCloudBusInput
+Registering MessageHandler errorLogger
+Channel 'order-1.springCloudBusInput' has 1 subscriber(s).
+Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+Channel 'order-1.errorChannel' has 1 subscriber(s).
+started _org.springframework.integration.errorLogger
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=b7181ccb6e77bd1faec27c4cd8c1b7559c7fa1e6, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+Attempting to connect to: [localhost:5672]
+Created new connection: rabbitConnectionFactory#6615237:0/SimpleConnection@1dca62c2 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64946]
+Channel 'order-1.springCloudBusOutput' has 1 subscriber(s).
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546413553529 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546413553531, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+declaring queue for inbound: springCloudBus.anonymous.M7ax9wZKS4Guf38dI1-EFw, bound to: springCloudBus
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Registering MessageChannel springCloudBus.anonymous.M7ax9wZKS4Guf38dI1-EFw.errors
+Channel 'order-1.springCloudBus.anonymous.M7ax9wZKS4Guf38dI1-EFw.errors' has 1 subscriber(s).
+Channel 'order-1.springCloudBus.anonymous.M7ax9wZKS4Guf38dI1-EFw.errors' has 2 subscriber(s).
+started inbound.springCloudBus.anonymous.M7ax9wZKS4Guf38dI1-EFw
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 8.696 seconds (JVM running for 9.331)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 7 ms
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf19c8d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546413611039 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=18224c32da68ac5afbf49ec7b63ac88535561918, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+Started application in 3.246 seconds (JVM running for 69.457)
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Shutting down DiscoveryClient ...
+Unregistering ...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - deregister  status: 200
+Completed shut down of DiscoveryClient
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546413616993 with initial instances count: 3
+Unregistering application ORDER with eureka with status DOWN
+Saw local status change event StatusChangeEvent [timestamp=1546413616996, current=DOWN, previous=STARTING]
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546413616996, current=UP, previous=DOWN]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+Received remote refresh request. Keys refreshed [config.client.version, env]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Attempting to connect to: [localhost:5672]
+Created new connection: rabbitConnectionFactory.publisher#341c8e7:0/SimpleConnection@16289d06 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 65005]
+Auto-declaring a non-durable, auto-delete, or exclusive Queue (springCloudBus.anonymous.M7ax9wZKS4Guf38dI1-EFw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5598ebc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546413686548 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=18224c32da68ac5afbf49ec7b63ac88535561918, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+BeanFactory id=aa88dc0a-3b86-32f5-b35a-d18366e42aa6
+No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+Bean 'com.zxjaihhl.order.client.ProductClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$ffeaa6f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$397ee8c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$a470a3f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$8002af15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$b8ea57e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5598ebc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 952 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Initializing ExecutorService 'taskScheduler'
+Registering MessageChannel nullChannel
+Registering MessageChannel springCloudBusInput
+Registering MessageChannel errorChannel
+Registering MessageChannel springCloudBusOutput
+Registering MessageHandler errorLogger
+Channel 'order-1.springCloudBusInput' has 1 subscriber(s).
+Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+Channel 'order-1.errorChannel' has 1 subscriber(s).
+started _org.springframework.integration.errorLogger
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=18224c32da68ac5afbf49ec7b63ac88535561918, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+Attempting to connect to: [localhost:5672]
+Created new connection: rabbitConnectionFactory#7f42b194:0/SimpleConnection@3f3c5ecd [delegate=amqp://guest@127.0.0.1:5672/, localPort= 65079]
+Channel 'order-1.springCloudBusOutput' has 1 subscriber(s).
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546413694185 with initial instances count: 3
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546413694189, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+declaring queue for inbound: springCloudBus.anonymous.ndCuFWutSySC-gF1E1KApQ, bound to: springCloudBus
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Registering MessageChannel springCloudBus.anonymous.ndCuFWutSySC-gF1E1KApQ.errors
+Channel 'order-1.springCloudBus.anonymous.ndCuFWutSySC-gF1E1KApQ.errors' has 1 subscriber(s).
+Channel 'order-1.springCloudBus.anonymous.ndCuFWutSySC-gF1E1KApQ.errors' has 2 subscriber(s).
+started inbound.springCloudBus.anonymous.ndCuFWutSySC-gF1E1KApQ
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 9.661 seconds (JVM running for 10.31)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5598ebc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546413699214 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=18224c32da68ac5afbf49ec7b63ac88535561918, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+Started application in 2.277 seconds (JVM running for 16.945)
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Shutting down DiscoveryClient ...
+Unregistering ...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - deregister  status: 200
+Completed shut down of DiscoveryClient
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546413704143 with initial instances count: 3
+Unregistering application ORDER with eureka with status DOWN
+Saw local status change event StatusChangeEvent [timestamp=1546413704146, current=DOWN, previous=STARTING]
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546413704146, current=UP, previous=DOWN]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+Received remote refresh request. Keys refreshed []
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Attempting to connect to: [localhost:5672]
+Created new connection: rabbitConnectionFactory.publisher#65bc84a1:0/SimpleConnection@f64c13d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 65100]
+Auto-declaring a non-durable, auto-delete, or exclusive Queue (springCloudBus.anonymous.ndCuFWutSySC-gF1E1KApQ) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 7 ms
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5598ebc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546413739699 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=ddbdf34944644586c81524913ef8890dc7866bb9, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+Started application in 3.422 seconds (JVM running for 58.6)
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Shutting down DiscoveryClient ...
+Unregistering ...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - deregister  status: 200
+Completed shut down of DiscoveryClient
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546413745830 with initial instances count: 3
+Unregistering application ORDER with eureka with status DOWN
+Saw local status change event StatusChangeEvent [timestamp=1546413745831, current=DOWN, previous=STARTING]
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546413745831, current=UP, previous=DOWN]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+Received remote refresh request. Keys refreshed [config.client.version, env]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Resolving eureka endpoints via configuration
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5598ebc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Not registering with Eureka server per configuration
+Discovery Client initialized at timestamp 1546414148601 with initial instances count: 3
+Fetching config from server at : http://DESKTOP-306J2P2:9765/
+Located environment: name=order, profiles=[dev], label=null, version=ddbdf34944644586c81524913ef8890dc7866bb9, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order-dev.yml'}, MapPropertySource {name='https://github.com/zxjaihhl/config-repo/order.yml'}]}
+No active profile set, falling back to default profiles: default
+Started application in 2.046 seconds (JVM running for 466.147)
+Shutting down DiscoveryClient ...
+Completed shut down of DiscoveryClient
+Shutting down DiscoveryClient ...
+Unregistering ...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - deregister  status: 200
+Completed shut down of DiscoveryClient
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1546414153358 with initial instances count: 3
+Unregistering application ORDER with eureka with status DOWN
+Saw local status change event StatusChangeEvent [timestamp=1546414153359, current=DOWN, previous=STARTING]
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1546414153360, current=UP, previous=DOWN]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+Received remote refresh request. Keys refreshed []
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration

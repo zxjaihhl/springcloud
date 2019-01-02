@@ -1,0 +1,389 @@
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9c58f018] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.zxjaihhl.order.mapper]' package. Please check your configuration.
+No MyBatis mapper was found in '[com.zxjaihhl.order]' package. Please check your configuration.
+BeanFactory id=e9f5ceb1-3182-3a8f-9f69-3ba6c4e9d3cd
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$803eed1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9c58f018] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8762 (http)
+Initializing ProtocolHandler ["http-nio-8762"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 733 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1545979098066 with initial instances count: 1
+Registering application TEST with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1545979098069, current=UP, previous=STARTING]
+DiscoveryClient_TEST/DESKTOP-306J2P2:test:8762: registering service...
+Starting ProtocolHandler ["http-nio-8762"]
+Using a shared selector for servlet write/read
+Pausing ProtocolHandler ["http-nio-8762"]
+Stopping service [Tomcat]
+DiscoveryClient_TEST/DESKTOP-306J2P2:test:8762 - registration status: 204
+The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+Stopping ProtocolHandler ["http-nio-8762"]
+Destroying ProtocolHandler ["http-nio-8762"]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Unregistering application TEST with eureka with status DOWN
+Saw local status change event StatusChangeEvent [timestamp=1545979098109, current=DOWN, previous=UP]
+DiscoveryClient_TEST/DESKTOP-306J2P2:test:8762: registering service...
+Shutting down ExecutorService 'applicationTaskExecutor'
+Shutting down DiscoveryClient ...
+DiscoveryClient_TEST/DESKTOP-306J2P2:test:8762 - registration status: 204
+Unregistering ...
+DiscoveryClient_TEST/DESKTOP-306J2P2:test:8762 - deregister  status: 200
+Completed shut down of DiscoveryClient
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5753dadb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.zxjaihhl.order.mapper]' package. Please check your configuration.
+No MyBatis mapper was found in '[com.zxjaihhl.order]' package. Please check your configuration.
+BeanFactory id=e9f5ceb1-3182-3a8f-9f69-3ba6c4e9d3cd
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b39d7de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5753dadb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 740 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1545979140405 with initial instances count: 1
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1545979140407, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 3.536 seconds (JVM running for 4.116)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$25bb4ecf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.zxjaihhl.order.mapper]' package. Please check your configuration.
+No MyBatis mapper was found in '[com.zxjaihhl.order]' package. Please check your configuration.
+BeanFactory id=e9f5ceb1-3182-3a8f-9f69-3ba6c4e9d3cd
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9a14bd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$25bb4ecf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 699 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1545979213207 with initial instances count: 0
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1545979213210, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 3.339 seconds (JVM running for 3.923)
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: false
+Getting all instance registry info from the eureka server
+The response status is 200
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$203f3fef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.zxjaihhl.order.mapper]' package. Please check your configuration.
+No MyBatis mapper was found in '[com.zxjaihhl.order]' package. Please check your configuration.
+BeanFactory id=e9f5ceb1-3182-3a8f-9f69-3ba6c4e9d3cd
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4253cf2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$203f3fef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 711 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1545979280730 with initial instances count: 2
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1545979280732, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 3.502 seconds (JVM running for 4.097)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e682f89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+No active profile set, falling back to default profiles: default
+No MyBatis mapper was found in '[com.zxjaihhl.order.mapper]' package. Please check your configuration.
+No MyBatis mapper was found in '[com.zxjaihhl.order]' package. Please check your configuration.
+BeanFactory id=e9f5ceb1-3182-3a8f-9f69-3ba6c4e9d3cd
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$724e2c8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e682f89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 9761 (http)
+Initializing ProtocolHandler ["http-nio-9761"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/9.0.13
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\devTools\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\WorkspaceJava\1-ClientDemo\ClientDemo-NetBeansPro;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\TDM-GCC-64\bin;D:\go\1.9.2.windows-amd64;D:\go\1.9.2.windows-amd64\BIN;E:\golang项目;;C:\TDM-GCC-64\bin;C:\Program Files (x86)\Linaro\gcc-linaro-arm-linux-gnueabihf-4.8-2014.04\bin;D:\workspace;E:\golang项目;D:\devTools\Java\jdk1.8.0_172\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 737 ms
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Initializing ExecutorService 'applicationTaskExecutor'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1545979937011 with initial instances count: 0
+Registering application ORDER with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1545979937014, current=UP, previous=STARTING]
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761: registering service...
+Starting ProtocolHandler ["http-nio-9761"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 9761 (http) with context path ''
+Updating port to 9761
+Started OrderApplication in 3.525 seconds (JVM running for 4.223)
+DiscoveryClient_ORDER/DESKTOP-306J2P2:order:9761 - registration status: 204
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: false
+Getting all instance registry info from the eureka server
+The response status is 200
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Resolving eureka endpoints via configuration
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+Resolving eureka endpoints via configuration
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Resolving eureka endpoints via configuration
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Resolving eureka endpoints via configuration
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Resolving eureka endpoints via configuration
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Resolving eureka endpoints via configuration
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Resolving eureka endpoints via configuration
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect
+Request execution failed with message: java.net.ConnectException: Connection refused: connect

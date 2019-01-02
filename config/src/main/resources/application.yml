@@ -1,0 +1,30 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 9765
+
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zxjaihhl/config-repo
+          username: 2247490184@qq.com
+          password: 15111150718a
+#  rabbitmq:
+#    cache:
+#      channel:
+#        checkout-timeout: 1s
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
